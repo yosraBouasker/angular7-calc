@@ -1,0 +1,33 @@
+ <!-- Navigation -->
+ <!--<input type="text" #myText>
+      <button (click) ="btnClicked(myText.value)">click here</button>
+      <h1>bonjour {{ message }}</h1>
+ -->
+
+  <div id="calculator">
+  <div class="result"><p> {{ message }} </p></div>
+  <div class="clear" (click) = "clear()">C</div>
+ 
+  <span (click) = "btnClicked('7')">7</span>
+  <span (click) = "btnClicked('8')">8</span>
+  <span (click) = "btnClicked('9')">9</span>
+  <span (click) = "btnClicked('+')">+</span>
+ 
+  <span (click) = "btnClicked('4')">4</span>
+  <span (click) = "btnClicked('5')">5</span>
+  <span (click) = "btnClicked('6')">6</span>
+  <span (click) = "btnClicked('-')">-</span>
+ 
+  <span (click) = "btnClicked('1')">1</span>
+  <span (click) = "btnClicked('2')">2</span>
+  <span (click) = "btnClicked('3')">3</span>
+  <span (click) = "btnClicked('/')">/</span>
+ 
+  <span (click) = "btnClicked('0')">0</span>
+  <span (click) = "btnClicked('.')">.</span>
+  <span (click) = "result()">=</span>
+  <span (click) = "btnClicked('*')">*</span>
+  </div>
+
+
+
